@@ -1,0 +1,66 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+}
+
+p {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.involve {
+    background-color: antiquewhite;
+    width: 25vw;
+    height: 63vh;
+    position: relative;
+    top: 84%;
+    left: 35%;
+    border-radius: 38px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.involve:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.conatainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.in {
+    padding: 2px 2px;
+}
+
+input {
+    border-radius: 29px;
+    padding: 12px 18px;
+    font-weight: bold;
+}
+
+label {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.button {
+    padding: 95px 2px;
+}
+
+form {
+    padding: 47px 15px;
+}
+
+button {
+    background-color: red;
+    color: rgb(242, 235, 235);
+    border-radius: 29px;
+    padding: 12px 90px;
+}
+
+button:hover {
+    background-color: blue;
+}
